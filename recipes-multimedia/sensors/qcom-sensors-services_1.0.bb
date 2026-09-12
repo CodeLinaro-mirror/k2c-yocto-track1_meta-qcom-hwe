@@ -7,8 +7,8 @@ DESCRIPTION = "Sensors-services Library"
 
 DEPENDS += "glib-2.0 property-vault syslog-plumber protobuf qcom-sensors-utils fastrpc"
 
-QCM6490_SHA256SUM = "d28037ed02f6331ff748ce65cc890b61b7dda10ea1c86b670f58f1f7b3a80531"
-QCS615_SHA256SUM = "af0871fceaac431d8a49103a9f098577cd71c34a4a2cb5b68955c83643249699"
+QCM6490_SHA256SUM = "c75763e2ed752dffa95a3692093b00e8e7fc0a920a2df2f10652a46d2d551ee7"
+QCS615_SHA256SUM = "2ab650fb502bc58d9f21da8cbb69850e4cbf5ad3c8df0df413a4d8862c69b7fe"
 
 SRC_URI[qcm6490.sha256sum] = "${QCM6490_SHA256SUM}"
 SRC_URI[qcs615.sha256sum] = "${QCS615_SHA256SUM}"

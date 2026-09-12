@@ -7,7 +7,7 @@ DESCRIPTION = "Recipe to install video firmware files on rootfs"
 
 PBT_ARCH = "armv8-2a"
 
-ARMV8_SHA256SUM = "4df1deb14855ba634de60a5f2301a74b4596575d6f16e6b5ef83f59dc82e4aae"
+ARMV8_SHA256SUM = "c6647b275357e63bbfe2ad50d6e976730d4223ec529339f538453ec430db726f"
 SRC_URI[armv8-2a.sha256sum] = "${ARMV8_SHA256SUM}"
 
 SRC_URI = "${PBT_ARTIFACTORY}/${PBT_BUILD_ID}/${PBT_BIN_PATH}/${BPN}_${PV}_${PBT_ARCH}.tar.gz;name=${PBT_ARCH}"
